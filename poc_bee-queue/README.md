@@ -23,13 +23,13 @@ cd bee-queue
 npm install
 ```
 
-To start the express server, run the following
+To start the express server on develop environment, run the following
 
 ```bash
 npm run start:dev
 npm run worker:dev
 ```
-The app is running on [http://localhost:3000](http://localhost:3000)
+The app is running on [http://localhost:4000](http://localhost:4000)
 
 ## Use
 * **[GET] /**

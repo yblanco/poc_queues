@@ -46,12 +46,12 @@ cd poc_bull-queue
 npm install
 ```
 
-To start the express server, run the following
+To start the express server on develop environment, run the following
 
 ```bash
 npm run start:dev
 ```
-The app is running on [http://localhost:3000](http://localhost:3000)
+The app is running on [http://localhost:4001](http://localhost:4001)
 
 ## Use
 * **[GET] /**

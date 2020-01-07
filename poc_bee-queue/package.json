@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "start:dev": "nodemon ./bin/www",
+    "start:dev": "PORT=4000 nodemon ./bin/www",
     "worker": "node ./queue/worker",
     "worker:dev": "nodemon ./queue/worker"
   },
