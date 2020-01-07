@@ -6,3 +6,4 @@ A [queue](https://runestone.academy/runestone/books/published/pythonds/BasicDS/W
 
 ## Content
 1. [Bull](./poc_bull-queue/README.md)
+1. [Bee Queue](./poc_bee-queue/README.md)
