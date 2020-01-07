@@ -50,7 +50,11 @@ To start the express server on develop environment, run the following
 
 ```bash
 npm run start:dev
+npm run consumer:dev
+npm run event:dev
 ```
+**Note**: you can run many consumer as you need
+
 The app is running on [http://localhost:4001](http://localhost:4001)
 
 ## Use

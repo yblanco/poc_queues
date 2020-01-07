@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "start:dev": "PORT=4001 nodemon ./bin/www"
+    "start:dev": "PORT=4001 nodemon ./bin/www",
+    "consumer": "node ./queue/consumer",
+    "consumer:dev": "nodemon ./queue/consumer",
+    "event": "node ./queue/event",
+    "event:dev": "nodemon ./queue/event"
   },
   "dependencies": {
     "bull": "^3.12.1",
