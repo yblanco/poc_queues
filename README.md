@@ -8,3 +8,4 @@ A [queue](https://runestone.academy/runestone/books/published/pythonds/BasicDS/W
 1. [Bull](./poc_bull/README.md)
 1. [Bee Queue](./poc_bee-queue/README.md)
 1. [Bee Queue Dynamic](./poc_bee-queue-dynamic/README.md)
+1. [Bull Dynamic](./poc_bull-dynamic/README.md)
