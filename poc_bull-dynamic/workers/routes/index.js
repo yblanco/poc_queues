@@ -23,7 +23,7 @@ router.route('/job/:queue')
       const { queue } = params;
       await queues.addQueue(queue)
         .then(result => {
-          data = { queue: result };
+          data = { queue: result.name };
           success = true;
         })
     } catch (err) {
