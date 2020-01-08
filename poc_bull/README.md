@@ -41,7 +41,7 @@ Queue5:
 ## Setup
 Clone the repo and install the dependencies
 ```bash
-git clone https://github.com/yblanco/poc_bull-queue.git
+git clone https://github.com/yblanco/poc_queues.git
 cd poc_bull-queue
 npm install
 ```

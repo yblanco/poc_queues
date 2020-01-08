@@ -1,0 +1,23 @@
+{
+  "name": "poc-bee-queue-dynamic-workers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./queues/bin/www",
+    "start:dev": "PORT=4002 nodemon ./queues/bin/www",
+    "worker": "node ./workers/bin/www",
+    "worker:dev": "PORT=4003 nodemon ./workers/bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "bee-queue": "^1.2.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

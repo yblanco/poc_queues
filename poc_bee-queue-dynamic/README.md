@@ -1,9 +1,8 @@
-# Proof of concept Bee Que:
+# Proof of concept Bee Que creating queue dynamically:
 
 ## Library for queue
 
 * [Bee Queue](https://github.com/bee-queue/bee-queue): A simple, fast, robust job/task queue for Node.js, backed by Redis.
-
 
 `npm install bee-queue`
 
@@ -19,24 +18,23 @@
 Clone the repo and install the dependencies
 ```bash
 git clone https://github.com/yblanco/poc_queues.git
-cd poc_bee-queue
+cd poc_bee-queue-dynamic
 npm install
 ```
 
 To start the express server on develop environment, run the following
 
 ```bash
+cd poc_bee-queue-dynamic
 npm run start:dev
 npm run worker:dev
 ```
-The app is running on [http://localhost:4000](http://localhost:4000)
+The app is running on [http://localhost:4002](http://localhost:4002)
+The worker is running  on [http://localhost:4003](http://localhost:4003)
 
 ## Use
-* **[GET] /**
+* **[GET] :4002/**
 List queues
 
-* **[GET] /job/:id**
-Add a job to the Queue1 with id {params.id}
-
-### [TO DO] Dynamics:
-[Dynamic queues](https://github.com/tabulahussla/bee-queue-dynamic)
+* **[GET] :4002/job/:queue/:id**
+Add a job to the {params.queue} with id {params.id}
