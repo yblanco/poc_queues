@@ -9,7 +9,7 @@
     "worker:dev": "PORT=4005 nodemon ./workers/bin/www"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "bull": "^3.12.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
